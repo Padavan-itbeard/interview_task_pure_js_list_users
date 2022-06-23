@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+section {
+    height: 100%;
+    background-color: cornsilk;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+.page-header {
+    font-weight: bold;
+    padding: 20px 20px 5px;
+}
+
+.page-footer {
+    font-size: 0.8em;
+}
